@@ -1,9 +1,8 @@
 
 body{
-    background: url('/image.jpg') no-repeat;
+    background: url('image/bg.jpg.jpg');
     background-size: cover;
 }
-
 header{
     background: rgba(14, 3, 3, 0.6);
 }
