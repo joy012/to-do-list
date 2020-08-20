@@ -35,12 +35,12 @@ const showToDo = () => {
 
     for (let i = 0; i < toDos.length; i++) {
         toDoList.innerHTML += 
-        `<div id='single-toDo' class="p-4 my-3col-sm-9 mx-auto d-flex justify-content-between align-items-center">
+        `<div id='single-toDo' class="p-4 my-3 col-sm-9 mx-auto d-flex justify-content-between align-items-center">
             <div class="form-check form-check-inline">
                 <input class="form-check-input mx-3" type="checkbox" id="inlineCheckbox1">
-                <label class="form-check-label" for="inlineCheckbox1"><h4>${toDos[i].toDoText}</h4></label>
+                <label class="form-check-label" for="inlineCheckbox1"><h4 class=" text-white">${toDos[i].toDoText}</h4></label>
             </div>
-            <button onclick="deleteToDo(${toDos[i].id})" class="btn btn-danger text-white">✖</button>
+            <button onclick="deleteToDo(${toDos[i].id})" class="btn btn-danger rounded-pill">✖</button>
         </div>`; 
     }
 }
