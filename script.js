@@ -1,7 +1,6 @@
 document.getElementById('toDoForm').addEventListener('submit', storeToDo);
 
 
-
 function storeToDo(event){
     const toDoText = document.getElementById('inputVal').value;
     const id = Math.round(Math.random() * 100);
