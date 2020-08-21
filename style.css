@@ -1,6 +1,6 @@
 
 body{
-    background: url('image/bg.jpg.jpg') no-repeat fixed;
+    background: #cec1b1 url('image/bg.jpg.jpg') no-repeat fixed;
     background-size: cover;
 }
 header{
