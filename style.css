@@ -1,8 +1,7 @@
 
 body{
-    background: #cec1b1 url('image/bg.jpg.jpg') no-repeat fixed;
+    background: #cec1b1 url('image/bg.jpg.jpg') fixed;
     background-size: cover;
-    height: 100vh;
 }
 header{
     background: rgba(14, 3, 3, 0.6);
